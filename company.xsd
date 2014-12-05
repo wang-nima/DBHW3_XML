@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   
+<xs:simpleType name="stringtype">
+  <xs:restriction base="xs:string"/>
+</xs:simpleType>
+
+   <xs:complexType name="employeetype">
+      <xs:sequence>
+         <xs:element name="empId" type="xs:string"/>
+         <xs:element name="empName" type="xs:string"/>
+         <xs:element name="empPhone">
+         	   <xs:simpleType>
+			      <xs:restriction base="xs:string">
+			         <xs:pattern value="[1-9][0-9]{2}-[0-9]{3}-[0-9]{4}"/>
+			      </xs:restriction>
+			   </xs:simpleType>
+         </xs:element>
+         <xs:element name="empOffice" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="percentTime" type="xs:string"/>
+   </xs:complexType>
+
+   <xs:complexType name="divisiontype">
+      <xs:sequence>
+         <xs:element name="employee" minOccurs="0" maxOccurs="unbounded" type="employeetype"/>
+      </xs:sequence>
+      <xs:attribute name="divid" type="xs:string"/>
+      <xs:attribute name="divName" type="xs:string"/>
+      <xs:attribute name="divPhone">
+               	<xs:simpleType>
+			      <xs:restriction base="xs:string">
+			         <xs:pattern value="[1-9][0-9]{2}-[0-9]{3}-[0-9]{4}"/>
+			      </xs:restriction>
+			   </xs:simpleType>
+		</xs:attribute>
+      <xs:attribute name="managerEmpid" type="xs:string"/>
+   </xs:complexType>
+
+   <xs:complexType name="departmenttype">
+      <xs:sequence>
+         <xs:element name="division" maxOccurs="unbounded" type="divisiontype"/>
+      </xs:sequence>
+      <xs:attribute name="deptId">
+               	<xs:simpleType>
+			      <xs:restriction base="xs:string">
+			         <xs:pattern value="[A-Z]{3}"/>
+			      </xs:restriction>
+			   </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="deptName" type="xs:string"/>
+      <xs:attribute name="deptAddr" type="xs:string"/>
+   </xs:complexType>
+
+   <xs:complexType name="companytype">
+      <xs:sequence>
+         <xs:element name="department" maxOccurs="unbounded" type="departmenttype"/>
+      </xs:sequence>
+   </xs:complexType>
+	
+	<xs:element name="company" type="companytype"/>
+
+</xs:schema>

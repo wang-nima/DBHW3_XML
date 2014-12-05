@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="company.xsl"?>
+<company>
+	<department deptId="ADM" deptName="Admin" deptAddr="LA">
+		<division divid="div1" divName="HR" divPhone="346-232-3242" managerEmpid="4">
+			<employee percentTime="60">
+				<empId>4</empId>
+				<empName>Anne</empName>
+				<empPhone>324-876-3768</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="10">
+				<empId>2</empId>
+				<empName>Wong</empName>
+				<empPhone>224-234-9065</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div2" divName="Recruitment" divPhone="346-232-3243" managerEmpid="1">
+			<employee percentTime="10">
+				<empId>4</empId>
+				<empName>Anne</empName>
+				<empPhone>324-876-3768</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="10">
+				<empId>5</empId>
+				<empName>Ben</empName>
+				<empPhone>453-249-3275</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="20">
+				<empId>3</empId>
+				<empName>Jack</empName>
+				<empPhone>243-235-4566</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="10">
+				<empId>6</empId>
+				<empName>Monica</empName>
+				<empPhone>935-487-3859</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="5">
+				<empId>1</empId>
+				<empName>PSmith</empName>
+				<empPhone>243-235-3253</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="10">
+				<empId>2</empId>
+				<empName>Wong</empName>
+				<empPhone>224-234-9065</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="5">
+				<empId>7</empId>
+				<empName>Jennifer</empName>
+				<empPhone>935-487-3869</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="5">
+				<empId>8</empId>
+				<empName>Mary</empName>
+				<empPhone>932-487-3859</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div3" divName="SysAd" divPhone="346-232-3244" managerEmpid="3">
+			<employee percentTime="10">
+				<empId>4</empId>
+				<empName>Anne</empName>
+				<empPhone>324-876-3768</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="10">
+				<empId>5</empId>
+				<empName>Ben</empName>
+				<empPhone>453-249-3275</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="20">
+				<empId>3</empId>
+				<empName>Jack</empName>
+				<empPhone>243-235-4566</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="10">
+				<empId>6</empId>
+				<empName>Monica</empName>
+				<empPhone>935-487-3859</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="5">
+				<empId>1</empId>
+				<empName>PSmith</empName>
+				<empPhone>243-235-3253</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="10">
+				<empId>2</empId>
+				<empName>Wong</empName>
+				<empPhone>224-234-9065</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="5">
+				<empId>7</empId>
+				<empName>Jennifer</empName>
+				<empPhone>935-487-3869</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="5">
+				<empId>8</empId>
+				<empName>Mary</empName>
+				<empPhone>932-487-3859</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+	</department>
+	<department deptId="FIN" deptName="Finance" deptAddr="LA">
+		<division divid="div4" divName="Payroll" divPhone="346-232-3245" managerEmpid="5">
+			<employee percentTime="50">
+				<empId>5</empId>
+				<empName>Ben</empName>
+				<empPhone>453-249-3275</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="15">
+				<empId>2</empId>
+				<empName>Wong</empName>
+				<empPhone>224-234-9065</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div5" divName="Accounting" divPhone="346-232-3246" managerEmpid="5">
+			<employee percentTime="30">
+				<empId>5</empId>
+				<empName>Ben</empName>
+				<empPhone>453-249-3275</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+	</department>
+	<department deptId="SER" deptName="Services" deptAddr="LA">
+		<division divid="div6" divName="Networking" divPhone="346-232-3247" managerEmpid="2">
+			<employee percentTime="60">
+				<empId>6</empId>
+				<empName>Monica</empName>
+				<empPhone>935-487-3859</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="15">
+				<empId>1</empId>
+				<empName>PSmith</empName>
+				<empPhone>243-235-3253</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="30">
+				<empId>2</empId>
+				<empName>Wong</empName>
+				<empPhone>224-234-9065</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div7" divName="SaaS" divPhone="346-232-3248" managerEmpid="2">
+			<employee percentTime="20">
+				<empId>6</empId>
+				<empName>Monica</empName>
+				<empPhone>935-487-3859</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="10">
+				<empId>2</empId>
+				<empName>Wong</empName>
+				<empPhone>224-234-9065</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="90">
+				<empId>7</empId>
+				<empName>Jennifer</empName>
+				<empPhone>935-487-3869</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div8" divName="Security" divPhone="346-232-3249" managerEmpid="1">
+			<employee percentTime="60">
+				<empId>3</empId>
+				<empName>Jack</empName>
+				<empPhone>243-235-4566</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="5">
+				<empId>1</empId>
+				<empName>PSmith</empName>
+				<empPhone>243-235-3253</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="15">
+				<empId>2</empId>
+				<empName>Wong</empName>
+				<empPhone>224-234-9065</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div9" divName="Convergence" divPhone="346-232-3250" managerEmpid="1">
+			<employee percentTime="3">
+				<empId>1</empId>
+				<empName>PSmith</empName>
+				<empPhone>243-235-3253</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+	</department>
+	<department deptId="OPR" deptName="Operations" deptAddr="LA">
+		<division divid="div10" divName="Sales" divPhone="346-232-3251" managerEmpid="1">
+			<employee percentTime="60">
+				<empId>1</empId>
+				<empName>PSmith</empName>
+				<empPhone>243-235-3253</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div11" divName="Marketing" divPhone="346-232-3252" managerEmpid="4">
+			<employee percentTime="90">
+				<empId>8</empId>
+				<empName>Mary</empName>
+				<empPhone>932-487-3859</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div12" divName="Engineering" divPhone="346-232-3253" managerEmpid="4">
+		</division>
+	</department>
+	<department deptId="BUS" deptName="Business" deptAddr="LA">
+		<division divid="div13" divName="BusinessDevelopment" divPhone="346-232-3254" managerEmpid="1">
+			<employee percentTime="5">
+				<empId>4</empId>
+				<empName>Anne</empName>
+				<empPhone>324-876-3768</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="5">
+				<empId>1</empId>
+				<empName>PSmith</empName>
+				<empPhone>243-235-3253</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+		<division divid="div14" divName="BusinessAnalysis" divPhone="346-232-3255" managerEmpid="1">
+			<employee percentTime="5">
+				<empId>4</empId>
+				<empName>Anne</empName>
+				<empPhone>324-876-3768</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+			<employee percentTime="2">
+				<empId>1</empId>
+				<empName>PSmith</empName>
+				<empPhone>243-235-3253</empPhone>
+				<empOffice>LA</empOffice>
+			</employee>
+		</division>
+	</department>
+</company>
